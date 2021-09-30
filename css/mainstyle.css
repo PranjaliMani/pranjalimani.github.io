@@ -1,0 +1,165 @@
+body
+{
+  background-color: #08091D;
+}
+
+.btn {
+  border-radius: 40px;
+  background-color: #08091E;
+  font-size: 18px;
+  cursor: pointer;
+  font-family: calibri;
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+/* blue */
+.HOME {
+  border-color: #39339D;
+  border-width: medium;
+  color:white;
+    padding: 18px 90px;
+}
+
+.HOME:hover {
+ border-color:#39339D;
+  border-width: medium;
+  color: #6387DC;
+    padding: 18px 90px;
+}
+
+/* Green */
+.PORTFOLIO {
+  border-color: #5A9A56;
+  border-width: medium;
+  color:white;
+  padding: 18px 70px;
+}
+
+.PORTFOLIO:hover {
+
+ border-color:#39339D;
+  border-width: medium;
+  color: #5A9A56;
+  padding: 18px 70px;
+}
+/* pink*/
+.ABOUT {
+
+  border-color: #F34792;
+  border-width: medium;
+  color:white;
+  padding: 18px 85px;
+}
+
+.ABOUT:hover {
+
+ border-color:#39339D;
+  border-width: medium;
+  color: #F34792;
+  padding: 18px 85px;
+}
+/* blue */
+.CONTACT {
+  border-color: #6387DC;
+  border-width: medium;
+  color:white;
+    padding: 18px 75px;
+}
+
+.CONTACT:hover {
+ border-color:#39339D;
+  border-width: medium;
+  color: #6387DC;
+    padding: 18px 75px;
+}
+
+.flex-container {
+  display: flex;
+}
+
+.parent {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.parent-horiz {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  column-gap: 10px;
+}
+
+.social {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  column-gap: 10px;
+}
+
+.footer-image
+{
+  width: 40px;
+  display:inline-block;
+}
+
+.description {	
+	text-align: center;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;  
+}
+
+.logo img {
+  width: 335px;
+}
+
+.description h1 {
+	color: #EC1164;
+  font-family: Calibri, sans-serif;
+  font-size: 2rem;
+}
+
+.description h2 {
+	color: #6387DC;
+  font-family: Calibri, sans-serif;  
+  font-size: 1.5rem;
+}
+
+.footer-copyright
+{
+  color: #6387DC;
+}
+
+.description p {
+	color: #fff;
+	font-size: 1rem;
+	line-height: 1.5;
+}
+
+.center {
+  margin: auto;
+  width: 60%;
+  border: 3px solid #39339D;
+  padding: 10px;
+    line-height: 1.9;
+}
+
+.page-footer
+{
+  padding-top: 30px;
+}
+
+#button-group {
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  column-gap: 10px;
+}
