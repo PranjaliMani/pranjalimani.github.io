@@ -1,6 +1,9 @@
 body
 {
   background-color: #08091D;
+  max-height: 100vh;
+  position: relative;
+  margin: 0;
 }
 
 .btn {
@@ -120,10 +123,19 @@ body
   height: 335px;
 }
 
+.galimg {
+  width: 100px;
+  height: 100px;
+}
+
 .description h1 {
-	color: #EC1164;
+	color: #6387DC;
   font-family: Calibri, sans-serif;
   font-size: 2rem;
+}
+
+.description h1.redtitle {
+	color: #EC1164;
 }
 
 .description h2 {
@@ -148,7 +160,7 @@ body
   width: 60%;
   border: 3px solid #39339D;
   padding: 10px;
-    line-height: 1.9;
+  line-height: 1.9;
 }
 
 .page-header
@@ -168,4 +180,35 @@ body
   justify-content: center;
   flex-wrap: wrap;
   column-gap: 10px;
+}
+
+h2.galtitle1 {
+  color: #5A9A56;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create three equal columns that sits next to each other */
+.column {
+  flex: 33%;
+  max-width: 33%;
+  padding: 0 15px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+.rcorners {
+  border-radius: 20px;
+  border: 2px solid #39339D;
+  margin: 20px;
+  padding: 10px;
+  line-height: 1.5;
 }
