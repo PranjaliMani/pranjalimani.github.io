@@ -182,8 +182,12 @@ body
   column-gap: 10px;
 }
 
-h2.galtitle1 {
+.title1 {
   color: #5A9A56;
+}
+
+.title2 {
+  color: #6387DC;
 }
 
 .row {
@@ -208,7 +212,7 @@ h2.galtitle1 {
 .rcorners {
   border-radius: 20px;
   border: 2px solid #39339D;
-  margin: 20px;
-  padding: 10px;
   line-height: 1.5;
+  margin: 20px;
+  padding: 5px;
 }
