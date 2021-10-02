@@ -1,7 +1,6 @@
 $(function(){
     $('.portfolioslider').slick({
-      arrows: false,
-      adaptiveHeight: true
+      arrows: false
     });
 
     // Custom carousel nav
