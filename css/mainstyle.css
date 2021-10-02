@@ -231,3 +231,25 @@ h2.title1 {
   margin: 0px;
   padding: 0px;
 }
+
+.label{
+  color:#6387DC;
+  font-size: 1.3rem;  
+  margin: 1px;
+  text-align: left;
+  float: left;
+  display: block;
+}
+
+.form-control{
+  background-color: black;
+  border: 1px solid #39339D;
+}
+
+.contactform {
+  padding: 20px;
+}
+
+
+
+@media (min-width:1025px) { .contactform { width: 80%;} }
