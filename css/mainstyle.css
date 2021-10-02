@@ -22,7 +22,7 @@ body
   border-color: #39339D;
   border-width: medium;
   color:white;
-    padding: 18px 90px;
+  padding: 18px 90px;
 }
 
 .HOME:hover {
@@ -47,6 +47,7 @@ body
   color: #5A9A56;
   padding: 18px 70px;
 }
+
 /* pink*/
 .ABOUT {
   border-color: #F34792;
@@ -260,6 +261,11 @@ h2.title1 {
   background-color: black;
   border: 1px solid #39339D;
   color: #fff;
+}
+
+.form-submit{
+  text-align: center;
+  display: inline-block;
 }
 
 .contactform {

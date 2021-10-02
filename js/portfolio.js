@@ -13,5 +13,4 @@ $(function(){
       e.preventDefault(); 
       $(this).parent().find('.slick-slider').slick('slickNext');
     });
-
   });
