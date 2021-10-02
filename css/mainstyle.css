@@ -49,11 +49,17 @@ body
 }
 /* pink*/
 .ABOUT {
-
   border-color: #F34792;
   border-width: medium;
   color:white;
   padding: 18px 85px;
+}
+
+.SUBMIT {
+  border-color: #39339D;
+  border-width: medium;
+  color:#F34792;
+  padding: 8px 55px;
 }
 
 .ABOUT:hover {
@@ -218,7 +224,12 @@ h2.title1 {
   border: 2px solid #39339D;
   line-height: 1.5;
   margin: 20px;
-  padding: 5px;
+  padding: 5px;  
+}
+
+.gallerytitle{
+  text-align: center;  
+  display: inline-block;
 }
 
 .carousel-nav
@@ -241,15 +252,24 @@ h2.title1 {
   display: block;
 }
 
+.form-parent{
+  width: 100%;
+}
+
 .form-control{
   background-color: black;
   border: 1px solid #39339D;
+  color: #fff;
 }
 
 .contactform {
-  padding: 20px;
+  padding: 20px;  
+  display: inline-flex;
+  width: 70%;
+}
+
+.form-control::-webkit-input-placeholder {
+  color: #39339D;
 }
 
 
-
-@media (min-width:1025px) { .contactform { width: 80%;} }
