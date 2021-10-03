@@ -130,9 +130,16 @@ body
   height: 335px;
 }
 
+.galcell{
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
 .galimg {
-  width: 100px;
-  height: 100px;
+  width: 250px;
+  height: 250px;
+  
 }
 
 .description h1 {
