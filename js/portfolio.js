@@ -11,5 +11,7 @@ $(function(){
     $('.carousel-next').click(function(e){
       e.preventDefault(); 
       $(this).parent().find('.slick-slider').slick('slickNext');
-    });
+    });    
   });
+
+  

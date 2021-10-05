@@ -304,6 +304,31 @@ h2.title1 {
   background-color: #08091D;
 }
 
-.icon-bar{
-  color:rgb(57, 51, 157);
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("../img/HAMBURGER.jpg");
+  background-size: 100%;
+  background-position: center center;
+  width: 35px;
+  height: 46px;
+  display: flex;
+}
+
+/* The Overlay (background) */
+.overlay {
+  height: 100vh;
+  width: 100vw;
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  background-color: #000353; /* Black fallback color */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding: 70px 0 0 40px;
+}
+
+#menuCloseBtn {
+  position: absolute;
+  top: 0px;
+  right: 10px;
+  font-size: 60px;
 }
