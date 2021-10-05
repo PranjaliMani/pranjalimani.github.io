@@ -331,4 +331,10 @@ h2.title1 {
   top: 0px;
   right: 10px;
   font-size: 60px;
+  text-decoration: solid;
+}
+
+.navbar-toggle{
+  position: absolute;
+  padding: 10px 20px;
 }
