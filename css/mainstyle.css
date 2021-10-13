@@ -164,7 +164,7 @@ body
 
 .description p {
 	color: #fff;
-	font-size: 1rem;
+	font-size: 1.3rem;    /*change this to make font size for description bigger/smaller*/
 	line-height: 1.5;
 }
 
