@@ -3,7 +3,7 @@ body
   background-color: #08091D;
   max-height: 100vh;
   position: relative;
-  margin: 0;
+  margin: 10px;
 }
 
 .btn {
@@ -107,7 +107,7 @@ body
   align-items: center;
   display: flex;
   justify-content: center;
-  column-gap: 10px;
+  column-gap: 15px;        /*Change this to increase/decrease space between social icons */
 }
 
 .footer-image
@@ -176,9 +176,10 @@ body
   line-height: 1.9;
 }
 
-.page-header
-{
-  border-bottom: 0px;
+.page-header {
+	border-bottom: 0px;
+	padding-bottom: 30px; /* This is for spacing in the bottom of all pages */
+	/* margin: 20px 0 40px */ /*This is for spacing on top of all pages, change first 20px to 30px or 10*/
 }
 
 .page-footer
@@ -192,19 +193,22 @@ body
   flex-direction: row;
   justify-content: center;
   flex-wrap: wrap;
-  column-gap: 10px;
+  column-gap: 25px; /*Change this for Gaps between buttons*/
 }
 
 .title1 {
   color: #5A9A56;
+  font-size: 3rem;
 }
 
 h2.title1 {
   color: #5A9A56;
+  font-size: 2.6rem; 
 }
 
 .title2 {
   color: #6387DC;
+  font-size: 2.3rem;
 }
 
 .row {
@@ -212,6 +216,7 @@ h2.title1 {
   flex-wrap: wrap;
   padding: 0 4px;
 }
+
 
 /* Create three equal columns that sits next to each other */
 .column {
@@ -241,8 +246,8 @@ h2.title1 {
 
 .carousel-nav
 {
-  width: 80px;
-  height: 80px;
+  width: 50px;
+  height: 50px;
 }
 
 .portfolioslider{
