@@ -232,11 +232,19 @@ h2.title1 {
 }
 
 .rcorners {
-  border-radius: 20px;
-  border: 2px solid #39339D;
-  line-height: 1.5;
-  margin: 20px;
-  padding: 5px;  
+	border-radius: 20px;
+	border: 2px solid #39339D;
+	line-height: 1.5;
+	margin: 20px;
+	padding: 5px;
+}
+
+.rcornerspfolio {
+	border-radius: 20px;
+	border: 2px solid #39339D;
+	line-height: 1.5;
+	margin: 0px 0px 25px 0px; /*Change first value to increase gap from top, increase decrease 25 to do gap at bottom*/
+	padding: 5px;
 }
 
 .gallerytitle{
@@ -248,16 +256,17 @@ h2.title1 {
 {
   width: 50px;
   height: 50px;
+  margin: 10px;          /*change gap between next and prev arrows*/
 }
 
-.portfolioslider{
-  margin: 0px;
-  padding: 0px;
+.portfolioslider {
+	margin: 0px;
+	/* padding: 0 0 10px 0;  change 10px to increase gap between images and next/prev arrow */
 }
 
-.slick-container{
-  margin: 0px;
-  padding: 0px;
+.slick-container {
+	margin: 0px;
+	padding: 0px 0px 15px 0px; /* change 15px to increase decrease space between next/prev arrow and buttons */
 }
 
 .sliderpage{
